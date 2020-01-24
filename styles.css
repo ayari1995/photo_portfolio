@@ -62,7 +62,7 @@ header {
 .nav-link {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   transition: opacity 0.5s;
 }
 .nav-link:hover {
