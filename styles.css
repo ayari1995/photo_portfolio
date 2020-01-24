@@ -4,6 +4,16 @@
   src: URL('dist/font/AmostelySignature.ttf') format('truetype');
 }
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(56, 65, 71, 0.089);
+}
+
 html {
   font-family: 'Roboto', sans-serif;
 }
@@ -35,7 +45,7 @@ header {
   margin-bottom: 30px;
 }
 .signature-subhead {
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 30;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -61,9 +71,12 @@ header {
 }
 .nav-link {
   color: white;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 800;
+
   text-transform: uppercase;
-  font-size: 16px;
-  transition: opacity 0.5s;
+  font-size: 18px;
+  transition: opacity 0.7s;
 }
 .nav-link:hover {
   color: white;
@@ -75,12 +88,13 @@ header {
 }
 .about-description {
   width: 100%;
-  background-color: white;
+  background-color: #deddd8;
   padding: 40px;
   outline: 5px solid rgba(56, 65, 71, 0.5);
   outline-offset: -5px;
   order: 2;
   margin-top: 5px;
+  font-family: 'Indie Flower', cursive;
 }
 .about-image {
   order: 1;
@@ -106,10 +120,11 @@ header {
   border-radius: 8px;
 }
 .heading-title {
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 800;
   text-transform: uppercase;
   color: #384147;
-  font-size: 22px;
+  font-size: 32px;
 }
 .lightbox-content {
   position: relative;
@@ -184,12 +199,16 @@ header {
 }
 .carousel .testimonial {
   padding: 25px;
-  font-style: italic;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  color: #384147;
 }
 .carousel .customer {
   text-transform: uppercase;
   color: #384147;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: 'Indie Flower', cursive;
 }
 .carousel .carousel-control {
   width: 25px;
@@ -219,13 +238,15 @@ footer {
 }
 footer h5 {
   color: white;
-  font-family: 'Playfair Display SC', sans-serif;
+  font-family: 'Indie Flower', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .text-muted {
   color: rgba(255, 255, 255, 0.7) !important;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 500;
 }
 .input-group .btn {
   background-color: #384147;
