@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -52,7 +53,7 @@
     <section class="about py-5">
         <div class="container">
             <div class="about-content">
-                <div class="about-description">
+                <div class="about-description" data-aos="zoom-in-left">
                     <div class="signature">
                         <h5 class="signature-heading">Ayari Achref</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur . Minus eligendi nulla et saepe itaque inventore?
@@ -68,51 +69,51 @@
 
     <section class="gallery py-5">
         <div class="container">
-            <div class="section-heading text-center">
+            <div class="section-heading text-center" data-aos="flip-right">
                 <h1 class="heading-title">Latest Work</h1>
             </div>
             <div class="row no-gutters">
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-down-right">
                     <a href="images/img-1.jpg" data-lightbox="photograph">
                         <img src="images/img-1.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-down">
                     <a href="images/img-2.jpg" data-lightbox="photograph">
                         <img src="images/img-2.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-md-4">
+                <div class="lightbox-content col-12 col-md-4" data-aos="fade-down-left">
                     <a href="images/img-3.jpg" data-lightbox="photograph">
                         <img src="images/img-3.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-right">
                     <a href="images/img-4.jpg" data-lightbox="photograph">
                         <img src="images/img-4.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade">
                     <a href="images/img-5.jpg" data-lightbox="photograph">
                         <img src="images/img-5.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-left">
                     <a href="images/img-6.jpg" data-lightbox="photograph">
                         <img src="images/img-6.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-up-right">
                     <a href="images/img-7.jpg" data-lightbox="photograph">
                         <img src="images/img-7.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-up">
                     <a href="images/img-8.jpg" data-lightbox="photograph">
                         <img src="images/img-8.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <div class="lightbox-content col-12 col-sm-6 col-md-4" data-aos="fade-up-left">
                     <a href="images/img-9.jpg" data-lightbox="photograph">
                         <img src="images/img-9.jpg" class="img-fluid" alt="">
                     </a>
@@ -123,7 +124,7 @@
 
     <section class="testimonial py-5">
         <div class="container">
-            <div class="section-heading text-center">
+            <div class="section-heading text-center" data-aos="flip-right">
                 <h1 class="heading-title">What peaple are saying</h1>
             </div>
             <div class="row">
@@ -221,11 +222,19 @@
     </footer>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="dist/js/lightbox-plus-jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease',
+            duration: 1800,
+            once: true
+        });
+    </script>
 </body>
 
 </html>

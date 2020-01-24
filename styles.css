@@ -220,6 +220,9 @@ footer {
 footer h5 {
   color: white;
   font-family: 'Playfair Display SC', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-muted {
   color: rgba(255, 255, 255, 0.7) !important;
